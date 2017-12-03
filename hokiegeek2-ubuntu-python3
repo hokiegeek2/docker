@@ -1,0 +1,7 @@
+FROM hokiegeek2/ubuntu
+
+MAINTAINER hokiegeek2@gmail.com
+
+RUN apt-get update && apt-get install -y software-properties-common
+RUN apt-get install -y python3-pip
+RUN apt install -y python3-pip
