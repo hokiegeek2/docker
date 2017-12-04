@@ -1,0 +1,6 @@
+FROM centos:7
+
+MAINTAINER hokiegeek2@gmail.com
+
+RUN yum update -y && yum install -y \
+    wget zip unzip vim curl sudo software-properties-common
